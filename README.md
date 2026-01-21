@@ -4,6 +4,11 @@
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4-brightgreen?style=for-the-badge&logo=springboot)](https://spring.io/projects/spring-boot)
 
 Projeto de Campo Minado Multiplayer desenvolvido com arquitetura híbrida (REST + WebSocket) para partidas em tempo real. Este projeto é uma **POC (Proof of Concept)** focada no estudo e implementação de **WebSockets** utilizando o protocolo **STOMP**.
+
+<img width="360" height="360" alt="image" src="https://github.com/user-attachments/assets/70379544-fd77-4f21-aca0-94264d8245af" />
+<img width="410" height="410" alt="image" src="https://github.com/user-attachments/assets/f84f3826-105b-4fe6-9536-6ba5f20b0225" />
+
+
 ## Sobre o Projeto
 
 O sistema permite que dois jogadores compitam em uma mesma partida simultaneamente. O backend atua como o motor do jogo, garantindo que a lógica e a posição das minas sejam validadas antes de qualquer atualização visual no cliente.
