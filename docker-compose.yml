@@ -1,0 +1,15 @@
+services:
+  minesweeper-db:
+    image: postgres:16-alpine
+    container_name: minesweeper-db
+    environment:
+      POSTGRES_USER: mine_user
+      POSTGRES_PASSWORD: mine_pass_123
+      POSTGRES_DB: minesweeper_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - minesweeper_data:/var/lib/postgresql/data
+
+volumes:
+  minesweeper_data:
