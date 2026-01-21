@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: minesweeper
+  datasource:
+    url: jdbc:postgresql://localhost:5432/minesweeper_db
+    username: mine_user
+    password: mine_pass_123
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+  expiration: 86400000
